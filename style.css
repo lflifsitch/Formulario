@@ -1,0 +1,62 @@
+* {
+    font-family: "Roboto", "sans-serif";
+}
+
+
+body {
+    background-color: rgb(233, 224, 225);
+    color: black;
+   
+
+}
+
+
+
+label {
+margin-left: 5px ;   
+    font-size: 14px;
+    font-weight: 500;
+  
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: .2em;
+    outline: none;
+    margin-left: 2px;
+    margin: .4em;
+    margin-top: .2em;
+    transition: .2s ease;
+    width: 200px;
+}
+
+input:hover {
+
+    background-color: rgb(240, 236, 236);
+
+}
+
+input:focus {
+
+    background-color: rgb(240, 236, 236);
+
+}
+
+button {
+    margin: .4em;
+    margin-top: 2em;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: .4em;
+    width: 208px;
+    transition: .4s ease;
+
+}
+
+button:hover {
+
+    background-color: black;
+    color: white;
+}

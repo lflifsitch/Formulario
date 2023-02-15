@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body id="corpo">
+
+    <h1>Formulário teste</h1>
+
+    <label>Nome</label>
+    <div>
+        <input type="text" id="name" autocomplete="off">
+
+    </div>
+    <label for="sobrenome">Sobrenome</label>
+    <div>
+        <input type="text" name="inp" id="nome">
+
+    </div>
+    <label for="email">Email</label>
+    <div>
+        <input type="email" name="inp" id="email" placeholder="nome@exemplo.com">
+
+    </div>
+    <label for="telefone">Telefone para contato</label>
+    <div>
+        <input type="text" name="inp" id="telefone" autocomplete="off" onkeypress="$(this).mask('(99) 99999-9999')" placeholder="(__) _____-____">
+
+
+    </div>
+    <div>
+        <label for="senha">Senha</label>
+
+        <div>
+            <input type="password" name="inp" id="pass">
+
+        </div>
+
+
+
+        <div>
+            <button onclick="enviar()" >Enviar</button>
+        </div>
+
+
+
+        <script src="./script.js"></script>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="./jQuery-Mask-Plugin-master/dist/jquery.mask.min.js"></script>
+</body>
+
+</html>
